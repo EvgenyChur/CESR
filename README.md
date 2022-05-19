@@ -119,9 +119,9 @@ Table 1. Blockschemes of different models used in the project:
     1. COSMO-CLMv5.16 with vegetation algorithms adapted from the Community Land Model (CLM) version 3.5. This version has a name CCLMv3.5;
     2. COSMO-CLMv5.16 with vegetation algorithms adapted from the Community Land Model (CLM) version 4.5. This version has a name CCLMv4.5;
     3. COSMO-CLMv5.16 with vegetation algorithms adapted from the Community Land Model (CLM) version 4.5 and additional changes in algorithm for calculation of transpiration from the dry leaf surface. This version has a name CCLMv4.5e;
-    4. COSMO-CLMv6.0 with vegetation algorithms adapted from the Community Land Model (CLM) version 4.5. Also the additional LAI algorithm from SURFEX model have been implemented in the latest version of COSMO-CLM. 
+    4. [COSMO-CLMv6.0][18] with vegetation algorithms adapted from the Community Land Model (CLM) version 4.5. Also the additional LAI algorithm from SURFEX model have been implemented in the latest version of COSMO-CLM. 
 
-The full code of COSMO-CLMv5.16 or COSMO-CLM 6.0 with updates is available by requests. Also, updated code can be available after the registration for the official members of the [COSMO consortium][17]
+The full code of COSMO-CLMv5.16 or COSMO-CLM 6.0 with updates is available by requests. Also, updated code of COSMO-CLMv6.0 can be available after the registration for the official members of the [COSMO consortium][17]
 
 3. **Task 3**
 
@@ -146,3 +146,4 @@ The full code of COSMO-CLMv5.16 or COSMO-CLM 6.0 with updates is available by re
 [15]: https://www.sciencedirect.com/science/article/pii/0168192391900028?via%3Dihub
 [16]: https://journals.ametsoc.org/view/journals/clim/20/15/jcli4222.1.xml
 [17]: https://wiki.coast.hzg.de/clmcom
+[18]: https://github.com/EvgenyChur/CESR/blob/main/changes%20in%20COSMO-CLMv6.0.f90
