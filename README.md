@@ -354,12 +354,14 @@ Table 4. Python scripts for postprocessing:
 SUR_BIOMAS, RUNOFF_G, PLCOV</td>
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/lai_cosmo.py" target="_blank"><b>lai_cosmo</b></a></td>   
 <td>Script uses the two personal modules: <b>cosmo_data</b> and <b>vis_module</b>. Script is under control of <b>lai_main</b></td>    
-    
+<tr>
+     
 <td><b>12</b></td>
 <td>Script works stomatal resistance data and compared them with other simulations and in-situ data</td>
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/STOMATA.py" target="_blank"><b>STOMATA</b></a></td>   
 <td>Script uses the two personal modules: <b>cosmo_data</b> and <b>vis_module</b></b></td>    
-    
+<tr>
+
 <td><b>13</b></td>
 <td>Script works with COSMO-CLM simulations and create boxplots for understanding heat and cold waves</td>
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/heat_wave_boxplot.py" target="_blank"><b>heat_wave_boxplot</b></a></td>   
