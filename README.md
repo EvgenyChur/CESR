@@ -19,7 +19,24 @@ Depending on the project task, the different methods and programing languages we
 4. **Task 4** - I have done my personal *Python* scripts for data analysis and visualisation.
 
 
+## Project results:
 
+1. **Task 1** - the blockshemes of different models are presented in Table 1.
+
+Table 1. Blockschemes of different models used in the project:
+<table>
+<tr>
+<td><b>Number:</b></td>    
+<td><b>Model:</b></td>
+<td><b>Blockscheme:</b></td>
+<tr>
+    
+<td><b>1</b></td>
+<td>COSMO-CLM v5.16</td>
+<td><a href="https://github.com/EvgenyChur/da_yandex_ru/blob/main/project_1.ipynb" target="_blank"><b>src_radiation.f90</b></a></td>      
+<tr>    
+</table>
+<br/><br/>
 
 
 
