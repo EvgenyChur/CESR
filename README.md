@@ -353,8 +353,22 @@ Table 4. Python scripts for postprocessing:
 <td>Script works with COSMO-CLM simulations COSMO-CLM_LAI, _LAI2, _LAI3 and allows to create 4 verification linear plots for such output parameters as: SUR_LAI,
 SUR_BIOMAS, RUNOFF_G, PLCOV</td>
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/lai_cosmo.py" target="_blank"><b>lai_cosmo</b></a></td>   
-<td>Script uses the two personal modules: <b>cosmo_data</b> and <b>vis_module</b>. Script is under control of <b>lai_main</b></td>      
+<td>Script uses the two personal modules: <b>cosmo_data</b> and <b>vis_module</b>. Script is under control of <b>lai_main</b></td>    
+    
+<td><b>12</b></td>
+<td>Script works stomatal resistance data and compared them with other simulations and in-situ data</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/STOMATA.py" target="_blank"><b>STOMATA</b></a></td>   
+<td>Script uses the two personal modules: <b>cosmo_data</b> and <b>vis_module</b></b></td>    
+    
+<td><b>13</b></td>
+<td>Script works with COSMO-CLM simulations and create boxplots for understanding heat and cold waves</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/heat_wave_boxplot.py" target="_blank"><b>heat_wave_boxplot</b></a></td>   
+<td>Script uses the one personal modules: <b>cosmo_data</b><b>lai_main</b></td>    
 </table>
+
+Also, part of the Python scripts (10 scripts, including: <b>cosmo_data</b> and <b>vis_module</b>) for visualisation and statistical analysis is available in another repository [PT-VAINT][19]. The scripts from tre PT-VAINT repository was used and published in our manuscript in Biogeosciences journal. Due to this repository has a link on it. 
+
+
 
 [1]: https://www.frontiersin.org/articles/10.3389/feart.2021.722244/full
 [2]: https://journals.ametsoc.org/view/journals/hydr/3/3/1525-7541_2002_003_0363_ctdola_2_0_co_2.xml
@@ -374,3 +388,4 @@ SUR_BIOMAS, RUNOFF_G, PLCOV</td>
 [16]: https://journals.ametsoc.org/view/journals/clim/20/15/jcli4222.1.xml
 [17]: https://wiki.coast.hzg.de/clmcom
 [18]: https://github.com/EvgenyChur/CESR/blob/main/changes%20in%20COSMO-CLMv6.0.f90
+[19]: https://github.com/EvgenyChur/PT-VAINT
