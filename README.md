@@ -33,10 +33,10 @@ Table 1. Blockschemes of different models used in the project:
     
 <td><b>1</b></td>
 <td>COSMO-CLM v5.16</td>
-<td><a href="https://github.com/EvgenyChur/da_yandex_ru/blob/main/project_1.ipynb" target="_blank"><b>src_radiation.f90</b></a></td>      
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/src_radiation.jpg" target="_blank"><b>src_radiation.f90</b></a></td>      
 <tr>    
 </table>
-<br/><br/>
+
 
 
 
