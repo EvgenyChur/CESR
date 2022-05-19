@@ -111,8 +111,7 @@ Table 1. Blockschemes of different models used in the project:
 <td>CLM3.5 CN</td>
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/9.%20CNStateUpdate3Mod.jpg" target="_blank"><b>CNStateUpdate3Mod</b></a></td>     
 <td>CLM3.5 CN</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/10.%20CNVegStructUpdate.jpg" target="_blank"><b>CNVegStructUpdate</b></a></td>  
-<tr>    
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/10.%20CNVegStructUpdate.jpg" target="_blank"><b>CNVegStructUpdate</b></a></td>    
 </table>
 
 
