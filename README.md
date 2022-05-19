@@ -29,21 +29,23 @@ Table 1. Blockschemes of different models used in the project:
 <td><b>Number:</b></td>    
 <td><b>Model:</b></td>
 <td><b>Blockscheme:</b></td>
+<td><b>Number:</b></td>    
+<td><b>Model:</b></td>
+<td><b>Blockscheme:</b></td>    
 <tr>
     
 <td><b>1</b></td>
 <td>COSMO-CLM v5.16</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/src_radiation.jpg" target="_blank"><b>src_radiation.f90</b></a></td>      
-<tr>    
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/COSMO-CLM/src_radiation.jpg" target="_blank"><b>src_radiation.f90</b></a></td>      
 
 <td><b>2</b></td>
 <td>COSMO-CLM v5.16</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/terra_ml.png" target="_blank"><b>terra_ml.f90</b></a></td>      
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/COSMO-CLM/terra_ml.png" target="_blank"><b>terra_ml.f90</b></a></td>      
 <tr>    
 
 <td><b>3</b></td>
 <td>SURFEX</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/vegetation_evol.jpg" target="_blank"><b>vegetation_evol.f90</b></a></td>      
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/SURFEX/vegetation_evol.jpg" target="_blank"><b>vegetation_evol.f90</b></a></td>      
 <tr>    
     
     
