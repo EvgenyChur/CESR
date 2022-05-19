@@ -318,7 +318,36 @@ Table 4. Python scripts for postprocessing:
  <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_cosmo_boxplot.py" target="_blank"><b>get_cosmo_boxplot</b></a></td>   
 <td> Script uses the three personal modules: <b>cosmo_data</b>, <b>vis_module</b> and <b>STOMATA</b></td>    
 
+<td><b>6</b></td>
+<td>Script for processing of NetCDF data. It is a special script for students of Yandex Practicum. </td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/netcdf_yandex_lai.py" target="_blank"><b>netcdf_yandex_lai</b></a></td>   
+<td> Script doesn't use other personal modules</td>    
+
+ <td><b>7</b></td>
+<td>The main program for analysis of LAI satellite data from MODIS and COPERNICUS systems. Also, script has modules for analysis of COSMO-CLM output information about LAI</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/lai_main.py" target="_blank"><b>lai_main</b></a></td>   
+<td> Script uses next personal modules: <b>vis_module</b>, <b>get_lai_data</b>, <b>lai_copernicus</b>, <b>lai_modis</b> and <b>lai_cosmo</b></td>     
     
+<td><b>8</b></td>
+<td>Script for reading and calculating information about LAI from MODIS or COPERNICUS satellite data </td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_lai_data.py" target="_blank"><b>get_lai_data</b></a></td>   
+<td>Script is under control of <b>lai_main</b></td>      
+    
+<td><b>9</b></td>
+<td>Script works with NetCDF data based on COPERNICUS  satellite information about LAI</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/lai_copernicus.py" target="_blank"><b>lai_copernicus</b></a></td>   
+<td>Script is under control of <b>lai_main</b></td>  
+    
+<td><b>10</b></td>
+<td>Script works with NetCDF data based on MODIS satellite information about LAI</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/lai_modis.py" target="_blank"><b>lai_modis</b></a></td>   
+<td>Script is under control of <b>lai_main</b></td>  
+    
+<td><b>11</b></td>
+<td>Script works with COSMO-CLM simulations COSMO-CLM_LAI, _LAI2, _LAI3 and allows to create 4 verification linear plots for such output parameters as: SUR_LAI,
+SUR_BIOMAS, RUNOFF_G, PLCOV</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/lai_cosmo.py" target="_blank"><b>lai_cosmo</b></a></td>   
+<td>Script uses the two personal modules: <b>cosmo_data</b> and <b>vis_module</b>. Script is under control of <b>lai_main</b></td>      
 </table>
 
 [1]: https://www.frontiersin.org/articles/10.3389/feart.2021.722244/full
