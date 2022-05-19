@@ -26,29 +26,45 @@ Depending on the project task, the different methods and programing languages we
 Table 1. Blockschemes of different models used in the project:
 <table>
 <tr>
-<td><b>Number:</b></td>    
+<td><b>Model:</b></td>
+<td><b>Blockscheme:</b></td>  
 <td><b>Model:</b></td>
 <td><b>Blockscheme:</b></td>
-<td><b>Number:</b></td>    
 <td><b>Model:</b></td>
-<td><b>Blockscheme:</b></td>    
+<td><b>Blockscheme:</b></td> 
 <tr>
     
-<td><b>1</b></td>
 <td>COSMO-CLM v5.16</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/COSMO-CLM/src_radiation.jpg" target="_blank"><b>src_radiation.f90</b></a></td>      
-
-<td><b>2</b></td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/COSMO-CLM/src_radiation.jpg" target="_blank"><b>src_radiation</b></a></td>      
 <td>COSMO-CLM v5.16</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/COSMO-CLM/terra_ml.png" target="_blank"><b>terra_ml.f90</b></a></td>      
-<tr>    
-
-<td><b>3</b></td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/COSMO-CLM/terra_ml.png" target="_blank"><b>terra_ml</b></a></td>      
 <td>SURFEX</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/SURFEX/vegetation_evol.jpg" target="_blank"><b>vegetation_evol.f90</b></a></td>      
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/SURFEX/vegetation_evol.jpg" target="_blank"><b>vegetation_evol</b></a></td>      
 <tr>    
+
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/1.%20CLM3.5%20model%20structure.jpg" target="_blank"><b>modules structure</b></a></td>      
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/2.%20Program_off%20(CLM).jpg" target="_blank"><b>program off</b></a></td>      
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/3.%20clm_comp%20(CLM).jpg" target="_blank"><b>clm comp</b></a></td>      
+<tr>  
+
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/4.%20Initialize1%20(CLM).jpg" target="_blank"><b>initialize 1</b></a></td>      
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/5.%20Initialiaze2%20-%20important%20(CLM).jpg" target="_blank"><b>initialize 2</b></a></td> 
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/6.%20InitSurfalbMod%20-%20first%20step%20(CLM).jpg" target="_blank"><b>initSurfalbMod</b></a></td>      
+<tr>
     
-    
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/7.%20Driver1%20-%20calculations%20(CLM).jpg" target="_blank"><b>driver 1</b></a></td>      
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/8.%20Driver2%20-%20printing%20(CLM).jpg" target="_blank"><b>driver 2</b></a></td> 
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/9.%20CanopyFluxesMod.jpg" target="_blank"><b>CanopyFluxesMod</b></a></td>      
+<tr>        
 </table>
 
 
