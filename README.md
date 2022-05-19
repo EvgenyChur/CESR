@@ -64,7 +64,55 @@ Table 1. Blockschemes of different models used in the project:
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/8.%20Driver2%20-%20printing%20(CLM).jpg" target="_blank"><b>driver 2</b></a></td> 
 <td>CLM3.5</td>
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/9.%20CanopyFluxesMod.jpg" target="_blank"><b>CanopyFluxesMod</b></a></td>      
-<tr>        
+<tr>    
+    
+<td>CLM3.5</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/10.%20SurfaceRadiationMod.jpg" target="_blank"><b>SurfaceRadiationMod</b></a></td>      
+<td>CLM3.5 STATICE</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/STATICE/STATICEcosysDynMod.jpg" target="_blank"><b>STATICEcosysdynMOD</b></a></td> 
+<td>CLM3.5 DGVM</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/DGVM/DGVMMod.jpg" target="_blank"><b>modules structure</b></a></td>    
+<tr>    
+    
+<td>CLM3.5 DGVM</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/DGVM/1.%20DGVMEcosystemDyniti.jpg" target="_blank"><b>DGVMEcosystemDyniti</b></a></td>      
+<td>CLM3.5 DGVM</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/DGVM/2.%20DGVMEcosystemMod.jpg" target="_blank"><b>DGVMEcosystemDyn</b></a></td> 
+<td>CLM3.5 DGVM</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/DGVM/3.%20Phenology%20%2B%20Fire.jpg" target="_blank"><b>phenology</b></a></td>     
+<tr>     
+    
+<td>CLM3.5 DGVM</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/DGVM/4.%20DGVMRespiration.jpg" target="_blank"><b>respiration</b></a></td>    
+<td>CLM3.5 DGVM</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/DGVM/5.%20LitterSOM.jpg" target="_blank"><b>litterSOM</b></a></td>     
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/1.%20CN_model_structure.jpg" target="_blank"><b>modules structure</b></a></td>  
+<tr>
+    
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/2.%20CNEcosystemDyn.jpg" target="_blank"><b>CNEcosystemDyn</b></a></td>    
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/3.%20CNSetValueMod.jpg" target="_blank"><b>CNSetValueMod</b></a></td>     
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/4.%20CNMResp.jpg" target="_blank"><b>CNMRespMod</b></a></td>  
+<tr>
+
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/5.%20CNDecompMod.jpg" target="_blank"><b>CNDecompMod</b></a></td>    
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/6.%20CNAllocaionMod.jpg" target="_blank"><b>CNAllocationMod</b></a></td>     
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/7.%20CNStateUpdate1Mod.jpg" target="_blank"><b>CNStateUpdate1Mod</b></a></td>  
+<tr>    
+    
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/8.%20CNStateUpdate2Mod.jpg" target="_blank"><b>CNStateUpdate2Mod</b></a></td>    
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/9.%20CNStateUpdate3Mod.jpg" target="_blank"><b>CNStateUpdate3Mod</b></a></td>     
+<td>CLM3.5 CN</td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/Blockschemes/CLM/CN/10.%20CNVegStructUpdate.jpg" target="_blank"><b>CNVegStructUpdate</b></a></td>  
+<tr>    
 </table>
 
 
