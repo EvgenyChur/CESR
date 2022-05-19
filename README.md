@@ -165,103 +165,103 @@ Table 3. Shell scripts for postprocessing:
 
 <td><b>1</b></td>
 <td>COSMO_CLM_v6.0</td>
-<td>Script for analysis of data from *COSMO_CLM_6.0_balance* version</td>    
+<td>Script for analysis of data from <i>COSMO_CLM_6.0_balance</i> version</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/COSMO_CLM_v6.0/balance_mode.sh" target="_blank"><b>balance_mode</b></a></td>
 <tr>
 
 <td><b>2</b></td>
 <td>COSMO_CLM_v6.0</td>
-<td>Script for analysis of the new vegetation algorithm implemented in *COSMO_CLM_6.0*</td>    
+<td>Script for analysis of the new vegetation algorithm implemented in <i>COSMO_CLM_6.0</i></td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/COSMO_CLM_v6.0/test_mode.sh" target="_blank"><b>test_mode </b></a></td>
 <tr>
 
 <td><b>3</b></td>
 <td>COSMO_CLM_v5.16</td>
-<td>Script works only for experimental simulations *CCLMv3.5*, *CCLMv4.5* and *CCLMv4.5_evap*. Versions can be corrected in the parameter `exp_version` and `ver_count` where the correct number of the versions should be written. COSMO-CLM output parameters in `params` are available only in the new simulations</td>    
+<td>Script works only for experimental simulations <i>CCLMv3.5</i>, <i>CCLMv4.5</i> and <i>CCLMv4.5_evap</i>. Versions can be corrected in the parameter <b>exp_version</b> and <b>ver_count</b> where the correct number of the versions should be written. COSMO-CLM output parameters in <b>params</b> are available only in the new simulations</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/COSMO_CLM_v5.16/add_params.sh" target="_blank"><b>add_params</b></a></td>
 <tr>    
 
 <td><b>4</b></td>
 <td>COSMO_CLM_v5.16</td>
-<td>Script works for all simulations due to the common output parameters of the simulations. The version can be corrected in the parameters `exp_version` and `ver_count` where the correct number of versions should be written</td>    
+<td>Script works for all simulations due to the common output parameters of the simulations. The version can be corrected in the parameters <b>exp_version</b> and <b>ver_count</b> where the correct number of versions should be written</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/COSMO_CLM_v5.16/main_params.sh" target="_blank"><b>main_params</b></a></td>
 <tr>  
     
 <td><b>5</b></td>
 <td>COSMO_CLM_v5.16</td>
-<td>Script works only for the reference *v5.0_clm16_orig* simulation. The names of reference simulation (*ctr* or *cclmref*) can be corrected in the parameter `exp_version`. </td>    
+<td>Script works only for the reference <i>v5.0_clm16_orig</i> simulation. The names of reference simulation (<i>ctr</i> or <i>cclmref</i>) can be corrected in the parameter <b>exp_version</b></td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/COSMO_CLM_v5.16/ref_simul.sh" target="_blank"><b>ref_simul</b></a></td>
 <tr>  
     
 <td><b>6</b></td>
 <td>DATASETS</td>
-<td>Script for interpolation of EOBS dataset grid to COSMO-CLM rotated grid</td>    
+<td>Script for interpolation of <i>E-OBS</i> dataset grid to COSMO-CLM rotated grid</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/DATASETS/EOBS_domain.sh" target="_blank"><b>EOBS_domain</b></a></td>
 <tr>  
     
 <td><b>7</b></td>
 <td>DATASETS</td>
-<td>Script for interpolation of HYRAS dataset grid to COSMO-CLM rotated grid</td>    
+<td>Script for interpolation of <i>HYRAS</i> dataset grid to COSMO-CLM rotated grid</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/DATASETS/HYRAS_domain.sh" target="_blank"><b>HYRAS_domain</b></a></td>
 <tr>  
     
 <td><b>8</b></td>
 <td>DATASETS</td>
-<td>Script for interpolation of GLEAM dataset grid to COSMO-CLM rotated grid</td>    
+<td>Script for interpolation of <i>GLEAM</i> dataset grid to COSMO-CLM rotated grid</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/DATASETS/GLEAM_domain.sh" target="_blank"><b>GLEAM_domain</b></a></td>
 <tr>  
     
 <td><b>9</b></td>
 <td>DATASETS</td>
-<td>Script for preparing NetCDF data of the EOBS dataset presented at COSMO-CLM rotated grid to python scripts and converting it to `.csv` format</td>    
+<td>Script for preparing NetCDF data of <i>E-OBS</i> dataset presented at COSMO-CLM rotated grid to python scripts and converting it to <b>.csv</b> format</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/DATASETS/EOBS_python.sh" target="_blank"><b>EOBS_python</b></a></td>
 <tr>  
     
 <td><b>10</b></td>
 <td>DATASETS</td>
-<td>Script for preparing NetCDF data of the HYRAS dataset presented at COSMO-CLM rotated grid to python scripts and converting it to `.csv` format</td>    
+<td>Script for preparing NetCDF data of <i>HYRAS</i> dataset presented at COSMO-CLM rotated grid to python scripts and converting it to <b>.csv</b> format</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/DATASETS/HYRAS_python.sh" target="_blank"><b>HYRAS_python</b></a></td>
 <tr>  
 
 <td><b>11</b></td>
 <td>DATASETS</td>
-<td>Script for preparing NetCDF data of the GLEAM dataset presented at COSMO-CLM rotated grid to python scripts and converting it to `.csv` format</td>    
+<td>Script for preparing NetCDF data of <i>GLEAM</i> dataset presented at COSMO-CLM rotated grid to python scripts and converting it to <b>.csv</b> format</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/DATASETS/GLEAM_python.sh" target="_blank"><b>GLEAM_python</b></a></td>
 <tr>     
 
 <td><b>12</b></td>
 <td>LAI</td>
-<td>Script for analysis of the results from 3 different simulations: *COSMO_LAI*, *_LAI2*, *_LAI3*. Script has a parameter exp_version where you can define the actual version of simulation</td>    
+<td>Script for analysis of the results from 3 different simulations: <i>COSMO_LAI</i>, <i>_LAI2</i>, <i>_LAI3</i>. Script has a parameter exp_version where you can define the actual version of simulation</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LAI/cosmo_lai.sh" target="_blank"><b>cosmo_lai</b></a></td>
 <tr> 
     
 <td><b>13</b></td>
 <td>LAI</td>
-<td>Script for postprocessing of MODIS satellite data with information about LAI. Script automatically work with *PARC*, *LINDEN* and *LINDENBERG* domains and require the **initial COSMO-CLM domains info**</td>    
+<td>Script for postprocessing of <i>MODIS</i> satellite data with information about LAI. Script automatically work with <i>PARC</i>, <i>LINDEN</i> and <i>LINDENBERG</i> domains and require the <b>initial COSMO-CLM domains info</b></td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LAI/modis_lai.sh" target="_blank"><b>modis_lai</b></a></td>
 <tr>  
     
 <td><b>14</b></td>
 <td>LAI</td>
-<td>Script for postprocessing of COPERNICUS satellite data with information about LAI. Script automatically work with *PARC*, *LINDEN* and *LINDENBERG* domains and require the **initial COSMO-CLM domains info**</td>    
+<td>Script for postprocessing of <i>COPERNICUS</i> satellite data with information about LAI. Script automatically work with <i>PARC</i>, <i>LINDEN</i> and <i>LINDENBERG</i> domains and require the <b>initial COSMO-CLM domains info</b></td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LAI/copernicus_lai.sh" target="_blank"><b>copernicus_lai</b></a></td>
 <tr>  
     
 <td><b>15</b></td>
 <td>LC_MAPS</td>
-<td>Script for statistical analysis. The land cover map LU_G was set as a reference experiment and all statistical results were given from this assumption</td>    
+<td>Script for statistical analysis. The land cover map <i>LU_G</i> was set as a reference experiment and all statistical results were given from this assumption</td> 
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LC_MAPS/G_refer.sh" target="_blank"><b>G_refer</b></a></td>
 <tr>  
     
 <td><b>16</b></td>
 <td>LC_MAPS</td>
-<td>Script for statistical analysis. The land cover map LU_GC was set as a reference experiment and all statistical results were given from this assumption<</td>    
+<td>Script for statistical analysis. The land cover map <i>LU_GC</i> was set as a reference experiment and all statistical results were given from this assumption<</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LC_MAPS/GC_refer.sh" target="_blank"><b>GC_refer</b></a></td>
 <tr>  
     
 <td><b>17</b></td>
 <td>LC_MAPS</td>
-<td>Script for statistical analysis. HYRAS observational gridded dataset was set as a reference. Statistical results were given from this assumption;</td>    
+<td>Script for statistical analysis. <i>HYRAS</i> observational gridded dataset was set as a reference. Statistical results were given from this assumption;</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LC_MAPS/HYRAS_refer.sh" target="_blank"><b>HYRAS_refer</b></a></td>
 <tr>  
     
