@@ -256,7 +256,7 @@ Table 3. Shell scripts for postprocessing:
 <td><b>16</b></td>
 <td>LC_MAPS</td>
 <td>Script for statistical analysis. The land cover map LU_GC was set as a reference experiment and all statistical results were given from this assumption<</td>    
-<td><a href="" target="_blank"><b>  </b></a></td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/LC_MAPS/GC_refer.sh" target="_blank"><b>GC_refer</b></a></td>
 <tr>  
     
 <td><b>17</b></td>
@@ -267,13 +267,13 @@ Table 3. Shell scripts for postprocessing:
     
 <td><b>18</b></td>
 <td>SIMULATION_STAT</td>
-<td>Comparison of *GLEAM* data with *AEVAP* and *ZVERBO* output parameters of *COSMO-CLMv5.16* simulations. Data for comparison is presented on COSMO-CLM rotated grid. Script automatically works only for one `domain` which is presented in domain parameter. Nevertheless, script is adapted for all domains</td>    
+<td>Comparison of <i>GLEAM</i> data with <i>AEVAP</i> and <i>ZVERBO</i> output parameters of <i>COSMO-CLMv5.16</i> simulations. Data for comparison is presented on COSMO-CLM rotated grid. Script automatically works only for one `domain` which is presented in domain parameter. Nevertheless, script is adapted for all domains</td>   
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/SIMULATION_STAT/gleam_data.sh" target="_blank"><b>gleam_data</b></a></td>
 <tr>  
     
 <td><b>19</b></td>
 <td>SIMULATION_STAT</td>
-<td>Comparison of HYRAS and E-OBS data with temperature (near surface – T2m, maximum – T_MAX, minimum – T_MIN and surface – T_S) output parameters of COSMO-CLMv5.16 simulations. Data for comparison is presented on COSMO-CLM rotated grid. Script automatically works only for one domain which is presented in domain parameter. Nevertheless, script is adapted for all domains.  The version of dataset can be chosen in refer parameter.</td>    
+<td>Comparison of <i>HYRAS</i>  and <i>E-OBS</i>  data with temperature (near surface – <i>T2m</i>, maximum – <i>T_MAX</i>, minimum – <i>T_MIN</i> and surface – <i>T_S</i>) output parameters of COSMO-CLMv5.16 simulations. Data for comparison is presented on COSMO-CLM rotated grid. Script automatically works only for one domain which is presented in domain parameter. Nevertheless, script is adapted for all domains.  The version of dataset can be chosen in refer parameter.</td>    
 <td><a href="https://github.com/EvgenyChur/CESR/blob/main/script/SIMULATION_STAT/eobs_hyras_data.sh" target="_blank"><b>eobs_hyras_data</b></a></td>  
 </table>
 
