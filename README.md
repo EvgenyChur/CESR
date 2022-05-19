@@ -121,9 +121,9 @@ Table 1. Blockschemes of different models used in the project:
     3. COSMO-CLMv5.16 with vegetation algorithms adapted from the Community Land Model (CLM) version 4.5 and additional changes in algorithm for calculation of transpiration from the dry leaf surface. This version has a name CCLMv4.5e;
     4. [COSMO-CLMv6.0][18] with vegetation algorithms adapted from the Community Land Model (CLM) version 4.5. Also the additional LAI algorithm from SURFEX model have been implemented in the latest version of COSMO-CLM. 
 
-The full code of COSMO-CLMv5.16 or COSMO-CLM 6.0 with updates is available by requests. Also, updated code of COSMO-CLMv6.0 can be available after the registration for the official members of the [COSMO consortium][17]
+The full code of COSMO-CLMv5.16 or COSMO-CLM 6.0 with updates is available by request (evgenychur@gmail.com). Also, updated code of COSMO-CLMv6.0 can be available after the registration for the official members of the [COSMO consortium][17]
 
-Table 1. Blockschemes of different models used in the project:
+Table 2. Updates implemented in COSMO-CLM v6.0:
 <table>
 <tr>
 <td><b>Number:</b></td>
