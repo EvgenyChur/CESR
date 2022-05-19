@@ -133,17 +133,17 @@ Table 1. Blockschemes of different models used in the project:
 
 <td><b>1</b></td>
 <td>Forthran code with updates. The updates have been implemented in 17 modules of COSMO-CLMv6.0 and use tiles structure as other COSMO-CLM soil parameters</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/changes%20in%20COSMO-CLMv6.0.f90" target="_blank"><b>CNVegStructUpdate</b></a></td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/changes%20in%20COSMO-CLMv6.0.f90" target="_blank"><b>updates in COSMO-CLMv6.0</b></a></td>
 <tr>
 
 <td><b>2</b></td>
 <td>Forthran code for the new vegetation parameterisation scheme. Module has 6 new subroutines for calculations stomatal resistance, leaf photosynthesis, two big leaf approach and other parameters required for correct work of the new scheme.</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/sfc_phenology.f90"><b>CNVegStructUpdate</b></a></td>
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/sfc_phenology.f90"><b>sfc_phenology</b></a></td>
 <tr>
     
 <td><b>3</b></td>
 <td>Forthran code with constant and PFT parameters requered for correct work of sfc_phenology module. In case, if you want to add new PFT the corresponding values should be added to table pft_CN_par and pft_SURFEX</td>
-<td><a href="https://github.com/EvgenyChur/CESR/blob/main/sfc_phenology_data.f90" target="_blank"><b>CNVegStructUpdate</b></a></td>   
+<td><a href="https://github.com/EvgenyChur/CESR/blob/main/sfc_phenology_data.f90" target="_blank"><b>sfc_phenology_data</b></a></td>   
 </table>    
 
 3. **Task 3**
