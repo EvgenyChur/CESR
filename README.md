@@ -279,7 +279,47 @@ Table 3. Shell scripts for postprocessing:
 
 4. **Task 4**
 
+Table 4. Python scripts for postprocessing:
 
+<table>
+<tr>
+<td><b>Number:</b></td>
+<td><b>Purpose</b></td>  
+<td><b>Available code:</b></td> 
+<td><b>Connected with:</b></td>
+<tr>
+    
+<td><b>1</b></td>
+<td>Get data from TRY database. The data can be downloaded from the TRY Database by requests via  the TRY website www.try‐db.org/TryWeb/Prop0.php. After that this script can be used</td>
+ <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_TRY_data.py" target="_blank"><b>get_TRY_data</b></a></td>   
+<td> Script doesn't use other personal modules</td>    
+<tr>     
+ 
+<td><b>2</b></td>
+<td>Script for creating new dataframes with stomatal resistance and Vcmax data based on filtered datasets from the TRY database</td>
+ <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_new_data.py" target="_blank"><b>get_new_data</b></a></td>   
+<td> Script uses the personal module: <b>get_TRY_data</b></td>    
+<tr>     
+
+<td><b>3</b></td>
+<td>Script for creation of correlation heatmap based on the reference COSMO-CLM simulation</td>
+ <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_heatmap.py" target="_blank"><b>get_heatmap</b></a></td>   
+<td> Script uses the results of shell scripts for postprocessing of COSMO-CLM data. Also, the personal module: <b>cosmo_data</b> is used in it</td>    
+<tr>
+
+<td><b>4</b></td>
+<td>Script for creation of stomatal resistance boxplot depending on data from TRY database. All TRY data have near surface air temperatures because of that the special T2m categories have created for data analysis</td>
+ <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_boxplot_t2m.py" target="_blank"><b>get_boxplot_t2m</b></a></td>   
+<td> Script uses the two personal modules: <b>cosmo_data</b> and <b>get_new_data</b></td>    
+<tr>
+
+<td><b>5</b></td>
+<td>Script for creation of stomatal resistance boxplot and line plot depending on data from COSMO-CLM simulations. This script all to compare output COSMO-CLM stomatal resistance data with other simulations</td>
+ <td><a href="https://github.com/EvgenyChur/CESR/blob/main/PYTHON/get_cosmo_boxplot.py" target="_blank"><b>get_cosmo_boxplot</b></a></td>   
+<td> Script uses the three personal modules: <b>cosmo_data</b>, <b>vis_module</b> and <b>STOMATA</b></td>    
+
+    
+</table>
 
 [1]: https://www.frontiersin.org/articles/10.3389/feart.2021.722244/full
 [2]: https://journals.ametsoc.org/view/journals/hydr/3/3/1525-7541_2002_003_0363_ctdola_2_0_co_2.xml
