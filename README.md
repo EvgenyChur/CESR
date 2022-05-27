@@ -370,7 +370,8 @@ SUR_BIOMAS, RUNOFF_G, PLCOV</td>
 
 Also, part of the Python scripts (10 scripts, including: <b>cosmo_data</b> and <b>vis_module</b>) for visualisation and statistical analysis is available in another repository [PT-VAINT][19]. The scripts from tre PT-VAINT repository was used and published in our manuscript in Biogeosciences journal. Due to this repository has a link on it. 
 
-
+## Financial support:
+This research was funded by the German Research Foundation (DFG) through grant number 401857120  
 
 [1]: https://www.frontiersin.org/articles/10.3389/feart.2021.722244/full
 [2]: https://journals.ametsoc.org/view/journals/hydr/3/3/1525-7541_2002_003_0363_ctdola_2_0_co_2.xml
